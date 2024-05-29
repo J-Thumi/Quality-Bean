@@ -11,37 +11,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
     <script src="https://kit.fontawesome.com/04567b97d0.js" crossorigin="anonymous"></script>
 </head>
+<Header class="header">
+    <nav>
+        <a href="index.html">
+            <img src="lloggggg.jpeg" alt="Logo">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li>
+                    <a href="#Home">HOME</a>
+                </li>
+                <li>
+                    <a href="#Problem">PROBLEM</a>
+                </li>
+                <li>
+                    <a href="#service">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#team">TEAM</a>
+                </li>
+                <li>
+                    <a href="#features">FEATURES</a>
+                </li>
+                <li>
+                    <a href="#collab">COLLABORATORS</a>
+                </li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+</Header>
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html">
-                <img src="logooo.jpeg" alt="Logo">
-            </a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li>
-                        <a href="#service">SERVICES</a>
-                    </li>
-                    <li>
-                        <a href="#team">TEAM</a>
-                    </li>
-                    <li>
-                        <a href="#features">FEATURES</a>
-                    </li>
-                    <li>
-                        <a href="#collab">COLLABORATORS</a>
-                    </li>
-                   
-                    
-                  
-                   
-                   
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
+    <section id="Home" class="home">
+       
+         <div class="text-box">
             
             <h1>Smarten Up Your Agriculture</h1>
             <p>
@@ -50,6 +54,21 @@
             <a href="#" class="hero-btn">Learn more</a>
         </div>
     </section>
+
+<section id="Problem">
+<div class="prob">
+    <h1>Problem</h1>
+    <p>Traditional quality 
+        control systems are 
+        plagued by inefficiencies
+         due to manual inspections, 
+        which are labor-intensive and 
+        error-prone, leading to
+         inconsistent data and 
+        delayed issue detection</p>
+</div>
+</section>
+
     <section class="course" id="service">
         <h1>Our System Offers:</h1>
         <p>
@@ -80,42 +99,42 @@
         <h1>Meet the Team</h1>
         <div class="row">
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="bene.JPG" alt="test">
                 <div class="layer">
                     <h3>Benedict Waweru</h3>
                     <p>Team Lead <br> Technical Researcher <br> Backend Developer</p>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="th.jpeg" alt="test">
                 <div class="layer">
                     <h3>Theophilus Korir</h3>
                     <p>Market Researcher <br> Frontend Developer</p>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="joe.JPG" alt="test">
                 <div class="layer">
                     <h3>Josphat Thumi</h3>
                     <p>Product Researcher <br> Frontend Developer</p>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="lelgo.JPG" alt="test">
                 <div class="layer">
                     <h3>Isaac Lelgo</h3>
                     <p>Product Researcher <br> Backend Developer</p>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="lee.JPG" alt="test">
                 <div class="layer">
                     <h3>Lee Thiong'o</h3>
                     <p>IoT Programmer</p>
                 </div>
             </div>
             <div class="campus-col">
-                <img src="silo.jpg" alt="test">
+                <img src="john.JPG" alt="test">
                 <div class="layer">
                     <h3>John Kibet</h3>
                     <p>IoT Programmer</p>
@@ -152,8 +171,7 @@
                 <img src="jhub.jpg" alt="JHUB Africa Logo">
                 <div>
                     <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus numquam blanditiis nulla voluptates repudiandae quam veniam provident eos eaque dolores nam quaerat id, doloremque architecto, dolore cumque, officiis quibusdam.
-                    </p>
+                        JHUB acts as the central platform for this groundbreaking project. It provides dedicated support, acting as a bridge between aspiring innovators and the resources needed to bring their ideas to life. JHUB offers comprehensive skills development programs and training initiatives designed to enhance digital literacy and proficiency, empowering individuals like myself to navigate the ever-evolving technological landscape. Additionally, JHUB takes responsibility for hosting the project website, ensuring accessibility and fostering a platform for knowledge sharing. </p>
                     <h3>
                         <a href="https://jhubafrica.com/">JHUB Africa</a>
                     </h3>
@@ -163,8 +181,7 @@
                 <img src="jkuat.jpg" alt="JKUAT Logo">
                 <div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit, debitis tempore libero nihil omnis velit animi doloribus, recusandae ducimus obcaecati. Velit earum qui dolore nulla minus provident quae voluptatem!
-                    </p>
+                        The Department of Computing within JKUAT plays a pivotal role, offering state-of-the-art computer laboratories that are meticulously equipped to cater to the needs of both students and project participants. The department’s unwavering support extends beyond physical resources, providing access to a wealth of online resources, including valuable learning materials and tutorials on platforms like Microsoft Azure. These resources have been instrumental in equipping me with the necessary knowledge and skills to tackle this project. </p>
                     <h3>
                         <a href="https://www.jkuat.ac.ke/">JKUAT</a>
                     </h3>
